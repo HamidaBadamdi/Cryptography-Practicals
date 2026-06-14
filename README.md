@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Security](https://img.shields.io/badge/Domain-Cryptography-red)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![Updated](https://img.shields.io/badge/Updates-Continuous-brightgreen)
+
 
 ---
 
@@ -75,11 +75,7 @@ This repository is created **strictly for educational purposes** to understand c
 
 ## 🔗 Connect With Me
 
-* LinkedIn: www.linkedin.com/in/hamida-badamdi
+* LinkedIn: https://www.linkedin.com/in/hamida-badamdi
 * GitHub: https://github.com/HamidaBadamdi/
 
 ---
-
-## ⭐ Support
-
-If you find this helpful, consider giving a **star ⭐** to the repository.
