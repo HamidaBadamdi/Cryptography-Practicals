@@ -67,12 +67,6 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 
 ---
 
-## ⚠️ Security Note
-
-This repository is created **strictly for educational purposes** to understand cryptographic concepts and secure systems.
-
----
-
 ## 🔗 Connect With Me
 
 * LinkedIn: https://www.linkedin.com/in/hamida-badamdi
