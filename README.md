@@ -38,7 +38,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 
 | No. | Practical         | Description                    | Status    |
 | --- | ----------------- | ------------------------------ | --------- |
-| 1   | XOR Operation     | Basic XOR encryption on string | ⏳ Pending |
+| 1   | XOR Operation     | Basic XOR encryption on string | ✅ Completed|
 | 2   | Caesar Cipher     | Substitution cipher technique  | ⏳ Pending |
 | 3   | Hill Cipher       | Matrix-based encryption        | ⏳ Pending |
 | 4   | Playfair Cipher   | Digraph substitution cipher    | ⏳ Pending |
