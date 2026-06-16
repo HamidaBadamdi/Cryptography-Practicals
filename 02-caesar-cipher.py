@@ -37,6 +37,8 @@ def caesar_cipher(message, shift):
         encrypted_message += encrypted_char
 
     return encrypted_message
+def decrypt_caesar(cipher, shift):
+    return caesar_cipher(cipher, -shift)
 
 message = "Hello, world!"
 shift = 3
