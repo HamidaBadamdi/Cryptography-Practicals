@@ -41,7 +41,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 | 1   | XOR Operation     | Basic XOR encryption on string | ✅ Completed|
 | 2   | Caesar Cipher     | Substitution cipher technique  | ✅ Completed |
 | 3   | Hill Cipher       | Matrix-based encryption        | ✅ Completed |
-| 4   | Playfair Cipher   | Digraph substitution cipher    | ⏳ Pending |
+| 4   | Playfair Cipher   | Digraph-based encryption using 5x5 matrix    | ✅ Completed |
 | 5   | Rail Fence Cipher | Transposition cipher           | ⏳ Pending |
 
 ---
