@@ -48,6 +48,7 @@ def rail_fence_cipher(plaintext, rails):
     return ciphertext
 
 plaintext = "HELLO WORLD"
+plaintext = plaintext.replace(" ", "")
 rails = 3
 ciphertext = rail_fence_cipher(plaintext, rails)
 
