@@ -46,7 +46,9 @@ Key Concepts:
 
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad, unpad
+from Crypto.Random import get_random_bytes
 
+# DES requires key and IV to be exactly 8 bytes
 def encrypt_ecb(data, key):
     cipher = DES.new(key, DES.MODE_ECB)
     ciphertext = cipher.encrypt(pad(data, 8))
@@ -81,12 +83,16 @@ def main():
     mode = input("Select mode (ECB, CBC, CFB): ").upper()
     data = input("Enter plain text: ").encode()
     key = input("Enter key (8 bytes): ").encode()
-    #iv = get_random_bytes(8)  # Initialization vector for CBC and CFB modes
-    iv = input("Enter initialization vector for CBC and CFB modes (8 bytes): ").encode()
+    iv = get_random_bytes(8)  # Initialization vector for CBC and CFB modes
+    #iv = input("Enter initialization vector for CBC and CFB modes (8 bytes): ").encode()
 
     if len(key) != 8:
         print("Key must be 8 bytes long.")
         return
+      
+    if mode in ["CBC", "CFB"] and len(iv) != 8:
+    print("IV must be 8 bytes long.")
+    return
 
     if mode == "ECB":
         ciphertext = encrypt_ecb(data, key)
