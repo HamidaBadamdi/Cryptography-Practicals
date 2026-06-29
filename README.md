@@ -52,7 +52,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 | No. | Algorithm  | Description                                | Status    |
 | --- | ---------- | ------------------------------------------ | --------- |
 | 1 | DES Algorithm | Encryption and decryption using ECB, CBC, and CFB modes | ✅ Completed |
-| 2 | Triple DES (3DES) | Encryption and decryption using ECB, CBC, and CFB modes | ✅ Completed |
+| 2 | Triple DES (3DES) | 3DES encryption and decryption  | ✅ Completed |
 | 3   | AES        | Advanced Encryption Standard               | ⏳ Pending |
 | 4   | RSA        | Public key encryption                      | ⏳ Pending |
 | 5   | RC4        | Stream cipher                              | ⏳ Pending |
