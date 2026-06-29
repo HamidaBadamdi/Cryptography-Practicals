@@ -75,6 +75,10 @@ def decrypt_cfb(ciphertext, key, iv):
 def main():
     plaintext = input("Enter the plaintext: ").encode()
     key = input("Enter the 3DES key (16 or 24 bytes): ").encode()
+   
+    if len(key) not in (16, 24):
+       print("Key must be either 16 or 24 bytes long.")
+       return
     iv = get_random_bytes(8)  # Initialization Vector for CBC and CFB
 
     print("Select encryption mode:")
