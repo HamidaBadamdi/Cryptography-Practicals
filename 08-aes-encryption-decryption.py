@@ -82,6 +82,9 @@ def decrypt_cfb(ciphertext, key, iv):
 def main():
     plaintext = input("Enter the plaintext: ").encode()
     key = input("Enter the AES key (16, 24, or 32 bytes): ").encode()
+    if len(key) not in (16, 24, 32):
+      print("Key must be 16, 24, or 32 bytes long.")
+      return
     iv = get_random_bytes(AES.block_size)  # Initialization Vector for CBC and CFB
 
     print("Select encryption mode:")
