@@ -54,6 +54,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 | 7 | Triple DES (3DES) | 3DES encryption and decryption  | ✅ Completed |
 | 8   | AES Algorithm | Advanced Encryption Standard  | ✅ Completed |
 | 9   | RSA Key Generation  |  Generating RSA public and private key pairs |  ✅ Completed |
+| 10 | RSA Receiver (Decryption) | Decrypt messages using RSA private key | ✅ Completed |
 | 11 | RSA Sender (Encryption) | Encrypt messages using RSA public key | ✅ Completed |
 
 ---
