@@ -44,18 +44,17 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 | 4   | Playfair Cipher   | Digraph-based encryption using 5x5 matrix    | ✅ Completed |
 | 5 | Rail Fence Cipher | Zigzag pattern-based transposition cipher | ✅ Completed |
 
-
 ---
 
 ## 🔐 Advanced Cryptography
 
 | No. | Algorithm  | Description                                | Status    |
 | --- | ---------- | ------------------------------------------ | --------- |
-| 1 | DES Algorithm | Encryption and decryption using ECB, CBC, and CFB modes | ✅ Completed |
-| 2 | Triple DES (3DES) | 3DES encryption and decryption  | ✅ Completed |
-| 3   | AES Algorithm | Advanced Encryption Standard  | ✅ Completed |
-| 4   | RSA Key Generation  |  Generating RSA public and private key pairs |  ✅ Completed |
-| 5   | RC4        | Stream cipher                              | ⏳ Pending |
+| 6 | DES Algorithm | Encryption and decryption using ECB, CBC, and CFB modes | ✅ Completed |
+| 7 | Triple DES (3DES) | 3DES encryption and decryption  | ✅ Completed |
+| 8   | AES Algorithm | Advanced Encryption Standard  | ✅ Completed |
+| 9   | RSA Key Generation  |  Generating RSA public and private key pairs |  ✅ Completed |
+| 11 | RSA Sender (Encryption) | Encrypt messages using RSA public key | ✅ Completed |
 
 ---
 
