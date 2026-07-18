@@ -63,7 +63,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 
 | No. | Algorithm       | Description                | Status    |
 | --- | --------------- | -------------------------- | --------- |
-| 1   | MD5             | Hashing + Avalanche effect | ⏳ Pending |
+| 12 | MD5 Hashing | Generate MD5 hash and display output size | ✅ Completed |
 | 2   | SHA-1 / SHA-512 | Secure hashing algorithms  | ⏳ Pending |
 | 3   | Diffie-Hellman  | Key exchange mechanism     | ⏳ Pending |
 
