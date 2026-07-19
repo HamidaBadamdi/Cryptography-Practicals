@@ -65,7 +65,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 | --- | --------------- | -------------------------- | --------- |
 | 12 | MD5 Hashing | Generate MD5 hash and display output size | ✅ Completed |
 | 13 | SHA-1 & SHA-512 Hashing | Generate SHA-1 and SHA-512 hash values | ✅ Completed |
-| 3   | Diffie-Hellman  | Key exchange mechanism     | ⏳ Pending |
+
 
 ---
 
