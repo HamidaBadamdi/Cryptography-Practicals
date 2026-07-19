@@ -71,7 +71,7 @@ It includes classical and modern encryption algorithms, hashing techniques, and 
 
 ## 🔗 Connect With Me
 
-* LinkedIn: linkedin.com/in/hamida-badamdi
+* LinkedIn: https://linkedin.com/in/hamida-badamdi
 * GitHub:   https://github.com/HamidaBadamdi
 
 ---
